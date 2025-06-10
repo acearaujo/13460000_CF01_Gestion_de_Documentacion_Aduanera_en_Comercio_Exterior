@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Operaciones y documentación aduanera.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Validar el conocimiento adquirido sobre las operaciones de comercio exterior, normativa y documentación aplicada.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -28,300 +28,235 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'El comercio exterior incluye únicamente operaciones de importación.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'El Documento Único Aduanero (DUA) es obligatorio para operaciones de comercio exterior en Colombia.',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: '<em>Route</em>',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'El "perfeccionamiento" en aduanas se refiere al momento en que una operación cumple todos los requisitos legales.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Falso',
               esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'El Sistema Armonizado (SA) clasifica mercancías usando códigos de 8 dígitos a nivel global.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            'Las zonas francas en Colombia no tienen beneficios tributarios.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            'El Decreto 659 de 2024 simplifica trámites aduaneros para PYMES.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            'El arancel "ad valorem" se calcula sobre el peso de la mercancía.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'La DIAN es la entidad que regula las aduanas en Colombia.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Las importaciones generan salida de divisas del país.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El "transbordo" requiere el pago de aranceles en Colombia.',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'La factura electrónica es opcional para exportaciones según el Decreto 659 de 2024.',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -335,13 +270,149 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'La OMA es el organismo que regula el Sistema Armonizado a nivel global',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto: 'La VUCE es una plataforma física para trámites aduaneros.',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 14,
+          texto: 'El "gravar" implica eximir un bien de impuestos.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 15,
+          texto:
+            'En Colombia, el arancel de aduanas se aplica únicamente a las importaciones, nunca a las exportaciones.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: 'Los servicios son un ejemplo de mercancías intangibles.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            'El comercio exterior solo incluye la venta de productos físicos.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto: 'El transporte es una etapa del comercio exterior.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -356,13 +427,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          id: 19,
+          texto: 'ProColombia apoya a los exportadores colombianos.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -377,14 +449,16 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 14,
+          id: 20,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'Las mercancías perecederas no necesitan certificados sanitarios para exportar.',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -398,29 +472,10 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo. Tiene un claro entendimiento sobre las operaciones y documentación aduanera.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
