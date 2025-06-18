@@ -18,7 +18,7 @@
 
     .bg_waves.bg_02.bg_top
       .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")
-        .col-md-4.col-lg-3.col-6.mb-3.d-block.d-md-none
+        .col-md-4.col-lg-3.col-6.mb-3.d-none.d-md-block
           figure
             img(src="@/assets/curso/temas/tema2/img_02.png", alt='Imagen Descriptiva').mx-auto.mb-4.mb-md-2
         .col-lg-12.col-xl-8.mb-2
@@ -111,7 +111,7 @@
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-down")
       .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
-          h3.bgr.position-relative Área natural 
+          h3.bgr.position-relative Sistema armonizado
             img.pst(src='@/assets/curso/temas/tema2/img_07.svg', alt='Imagen Descriptiva')
     
    
@@ -128,7 +128,7 @@
              ul.bullets.mb-0
               li.d-flex.gap-2.align-items-center
                 i.fa.fa-check-circle
-                span materias primas
+                span Materias primas
               li.d-flex.gap-2.align-items-center
                 i.fa.fa-check-circle
                 span Productos brutos
@@ -159,7 +159,7 @@
             img(src="@/assets/curso/temas/tema2/img_06m.svg", alt='Texto alternativo: En la figura 2 se evidencia la estructura de la nomenclatura del Sistema Armonizado. Capítulo 85 máquinas, aparatos Partida 01 motores eléctricos Subpartida 21 para vehículos automóviles Código SA 85.01.10 motores eléctricos para automóviles').mx-auto.d-block.d-md-none
             figcaption 
               b Fuente: 
-              | SENA, 2025
+              | SENA, 2025.
 
     .row.mb-4
       .col-12.col-md-10.mx-auto
@@ -177,7 +177,7 @@
                 li.d-flex.gap-2.align-items-center
                   i.fa.fa-check-circle
                   span 
-                    b Estadística:
+                    b Estadística: 
                     | consolida datos comerciales entre países.
                 li.d-flex.gap-2.align-items-center
                   i.fa.fa-check-circle

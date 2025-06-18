@@ -144,9 +144,6 @@
                 td Descripción
             tr
               td(rowspan="4") Importación
-              td Tangibles (bienes físicos)
-              td Alimentos, electrodomésticos, ropa
-            tr
               td Definitiva
               td Bienes que ingresan al territorio aduanero nacional para permanecer definitivamente.
             tr
@@ -155,6 +152,9 @@
             tr
               td Perfeccionamiento activo
               td Permite importar materias primas o insumos temporalmente sin pagar aranceles, para ser transformados y luego exportados.
+            tr
+              td Especiales
+              td Importación de bienes a zonas francas con beneficios tributarios y aduaneros.
             
             tr
               td(rowspan="4") Exportación
@@ -221,7 +221,7 @@
               td Pago electrónico obligatorio de aranceles, IVA, impuestos especiales (cuando aplique). Garantías electrónicas para importación temporal y regímenes suspensivos.
             tr
               td Control y Seguridad
-              td Declaración anticipada de carga, sistema de trazabilidad con blockchain para medicamentos, productos agrícolas y bienes de alta fiscalización. Muestreo automatizado.
+              td Declaración anticipada de carga, sistema de trazabilidad con <em>blockchain</em> para medicamentos, productos agrícolas y bienes de alta fiscalización. Muestreo automatizado.
             tr
               td Operacionales
               td Vinculación obligatoria al SIGA (Sistema Integral de Gestión Aduanera), interoperabilidad con VUCE (Ventanilla Única de Comercio Exterior), prevalidación automática de documentos.

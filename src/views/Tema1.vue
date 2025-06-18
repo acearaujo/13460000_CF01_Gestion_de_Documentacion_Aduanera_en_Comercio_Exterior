@@ -78,10 +78,12 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_05.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p La exportación se refiere a la venta de productos o servicios hacia otros países. Para lograr que esta operación se lleve a cabo, hay que cumplir con la normativa local y del país al que se envían, como lo son los certificados de calidad, permisos sanitarios y documentos de transporte. En Colombia, los exportadores pueden aprovechar beneficios como el Plan Vallejo y el apoyo de ProColombia.
+          p La exportación se refiere a la venta de productos o servicios hacia otros países. Para lograr que esta operación se lleve a cabo, hay que cumplir con la normativa local y del país al que se envían, como lo son los certificados de calidad, permisos sanitarios y documentos de transporte. En Colombia, los exportadores pueden aprovechar beneficios como el Plan Vallejo y el apoyo de ProColombia. Exportar genera importantes beneficios como el ingreso de divisas al país, fortalece la economía, fomenta la creación de empleos, promueve la innovación tecnológica y estimula a las empresas para que sean más competitivas. 
+
             br 
             br
-            | Exportar genera importantes beneficios como el ingreso de divisas al país, fortalece la economía, fomenta la creación de empleos, promueve la innovación tecnológica y estimula a las empresas para que sean más competitivas. 
+            | Es importante tener en cuenta aspectos como la logística internacional, las normas de comercio internacional y el uso de medios de pago internacionales, como lo son las cartas de crédito. Lograr éxito en la exportación requiere una buena planificación, entender los mercados a los que se desea llegar y ajustarse a las normas internacionales.
+
 
 
 

@@ -10,7 +10,7 @@
     div.tarjeta-horz.mb-3
       img(src='@/assets/curso/temas/tema4/img_01.png', alt='Imagen decorativa')
       div.texto-tarjeta
-        p.mb-0 La temática que vamos a desarrollar está orientada a conocer los conceptos básicos, procesos clave y el impacto de las operaciones de comercio exterior, resaltando su relevancia en un mundo globalizado; con el fin de satisfacer demandas internas, aprovechar ventajas competitivas y fortalecer el crecimiento económico del país.
+        p.mb-0 La temática que vamos a desarrollar está orientada a conocer cuál es la normativa aduanera que utilizan los países para la clasificación de las mercancías en las operaciones de comercio exterior con el objetivo de establecer las tarifas o impuesto a recaudar por los gobiernos nacionales, así mismo busca proteger a las empresas locales o nacionales de la competencia internacional.
 
     separador 
     .bg_waves.bg_02.bg_top
@@ -33,7 +33,7 @@
             img(src="@/assets/curso/temas/tema4/img_03m.svg", alt='Texto alternativo: En la figura 4 se presentan aspectos generales de los aranceles. •Es un tipo de tributo El arancel es una obligación fiscal sostenida por los importadores y el estado colombiano y en el que mediante la entidad de la Dirección de Impuestos y Aduanas Nacionales (DIAN), este impuesto es recaudado. •Grava un bien o servicio cuando cruza la frontera de un país Los aranceles son la representación más antigua de manejo comercial y han sido utilizadas tradicionalmente como una fuente de ingresos para el Estado y como una manera de proteger a los productores nacionales. •Comúnmente se aplica sobre importaciones El arancel sobre un bien importado, aumenta el precio recibido por los productores nacionales de dicho bien logrando una desmotivación en el consumo de bienes extranjeros.').mx-auto.d-block.d-md-none
             figcaption 
               b Fuente: 
-              | SENA, 2025
+              | SENA, 2025.
 
           .titulo-sexto.mb-4.color-acento-contenido
             h5 Figura 5. 
@@ -43,7 +43,7 @@
             img(src="@/assets/curso/temas/tema4/img_04m.svg", alt='En la figura 5 se presenta la clasificación de los aranceles. •Específicos Aquellos que se cobran en unidad monetaria por unidades de una determinada medida que puede ser de peso (libra, kilo, tonelada, etc.) volumen (centímetros, metros, toneladas etc.) de longitud (metro, centímetro etc.). •Ad valorem: Aquellos que se aplican como un porcentaje sobre el valor en aduana de las mercancías. Este valor en el caso de Colombia está compuesto por valor de la mercancía, más el valor del seguro, más el valor del flete, más el valor de otros gastos. •Mixtos: Aquellos que se calculan combinando un arancel específico y un arancel Ad Valorem').mx-auto.d-block.d-md-none
             figcaption 
               b Fuente: 
-              | SENA, 2025
+              | SENA, 2025.
 
         separador 
 
@@ -78,7 +78,7 @@
           .col-2.col-lg-1.mx-auto
             img(src="@/assets/curso/temas/tema4/img_07.svg", alt='Imagen Descriptiva').mx-auto.mb-3.mb-lg-0
           .col-12.col-lg-11
-            p.mb-0 En el caso colombiano se adopta a través de un decreto, expedido por el presidente de la República. La estructura del arancel está recomendada a nivel global por la Organización Mundial de Aduanas -OMA.
+            p.mb-0 Todos estos procedimientos se gestionan principalmente a través de la plataforma MUISCA de la DIAN, y muchos requieren el acompañamiento de agentes de aduanas debidamente autorizados.
     
     separador
     
@@ -117,9 +117,9 @@
             p 
               b Regímenes especiales: 
               | zonas francas.
-            p 
-              b ¿Qué es el Arancel de Aduanas?
-
+            
+        p 
+          b ¿Qué es el Arancel de Aduanas?
         .titulo-sexto.mb-4.color-acento-contenido
           h5 Figura 7. 
           span Arancel de aduanas  
@@ -128,45 +128,45 @@
           img(src="@/assets/curso/temas/tema4/img_09m.svg", alt='En la figura 7 se presenta la definición de arancel de aduanas. •Es un listado de mercancías que empezó a organizarse con el criterio de la naturaleza o composición del producto y por ello el primero que se utilizó, fue el de los reinos de la naturaleza (Animal, vegetal y mineral); luego las dos grandes ramas de la química (orgánica e inorgánica) y finalmente por industrias (caucho, textil, calzado, etc.) •El objetivo de la organización de todos los bienes es poder agruparlos de manera tal, que a mercancías similares se les pueda aplicar una política comercial parecida.').mx-auto.d-block.d-md-none
           figcaption 
             b Fuente: 
-            | SENA, 2025
+            | SENA, 2025.
 
         p.mb-4
           b ¿Qué es la nomenclatura arancelaria?
         
-    .bg_waves.bg_02.bg_top
-      .col-12.col-lg-10.mx-auto
-        .titulo-sexto.mb-4.color-acento-contenido
-          h5 Figura 8. 
-          span Nomenclatura arancelaria 
-        figure.mb-5
-          img(src="@/assets/curso/temas/tema4/img_10.png", alt='En la figura 8 se presenta la definición de nomenclatura arancelaria. •Es un sistema, con base en números y por ello se llama “nomenclatura”. •Se basa en un lenguaje cifrado originado en un método y unas reglas que se aplican de manera mundial a seis dígitos y permite un lenguaje común, independientemente de las costumbres, idioma, políticas comerciales, etc. En resumen, mediante el uso de una codificación, se clasifican y agrupan por categorías las mercancías objeto de comercio exterior.').mx-auto.d-none.d-md-block
-          img(src="@/assets/curso/temas/tema4/img_10m.png", alt='En la figura 8 se presenta la definición de nomenclatura arancelaria. •Es un sistema, con base en números y por ello se llama “nomenclatura”. •Se basa en un lenguaje cifrado originado en un método y unas reglas que se aplican de manera mundial a seis dígitos y permite un lenguaje común, independientemente de las costumbres, idioma, políticas comerciales, etc. En resumen, mediante el uso de una codificación, se clasifican y agrupan por categorías las mercancías objeto de comercio exterior.').mx-auto.d-block.d-md-none
-          figcaption 
-            b Fuente: 
-            | SENA, 2025
+    //- .bg_waves.bg_02.bg_top
+    //-   .col-12.col-lg-10.mx-auto
+    //-     .titulo-sexto.mb-4.color-acento-contenido
+    //-       h5 Figura 8. 
+    //-       span Nomenclatura arancelaria 
+    //-     figure.mb-5
+    //-       img(src="@/assets/curso/temas/tema4/img_10.png", alt='En la figura 8 se presenta la definición de nomenclatura arancelaria. •Es un sistema, con base en números y por ello se llama “nomenclatura”. •Se basa en un lenguaje cifrado originado en un método y unas reglas que se aplican de manera mundial a seis dígitos y permite un lenguaje común, independientemente de las costumbres, idioma, políticas comerciales, etc. En resumen, mediante el uso de una codificación, se clasifican y agrupan por categorías las mercancías objeto de comercio exterior.').mx-auto.d-none.d-md-block
+    //-       img(src="@/assets/curso/temas/tema4/img_10m.png", alt='En la figura 8 se presenta la definición de nomenclatura arancelaria. •Es un sistema, con base en números y por ello se llama “nomenclatura”. •Se basa en un lenguaje cifrado originado en un método y unas reglas que se aplican de manera mundial a seis dígitos y permite un lenguaje común, independientemente de las costumbres, idioma, políticas comerciales, etc. En resumen, mediante el uso de una codificación, se clasifican y agrupan por categorías las mercancías objeto de comercio exterior.').mx-auto.d-block.d-md-none
+    //-       figcaption 
+    //-         b Fuente: 
+    //-         | SENA, 2025
             
     .col-12.col-lg-10.mx-auto
       .titulo-sexto.mb-4.color-acento-contenido
-        h5 Figura 9. 
-        span Nomenclatura arancelaria 
+        h5 Figura 8. 
+        span Ejemplo de nomenclatura arancelaria 
       figure.mb-5
         img(src="@/assets/curso/temas/tema4/img_11.svg", alt='En la figura 9 se presenta un ejemplo de nomenclatura arancelaria. No. Capitulo. Ubicación de la partida en el capítulo, PARTIDA, SUBPARTIDA, SISTEMA ARMONIZADO, NANDINA, ARANCEL COLOMBIANO').mx-auto.d-none.d-md-block
         img(src="@/assets/curso/temas/tema4/img_11m.svg", alt='En la figura 9 se presenta un ejemplo de nomenclatura arancelaria. No. Capitulo. Ubicación de la partida en el capítulo, PARTIDA, SUBPARTIDA, SISTEMA ARMONIZADO, NANDINA, ARANCEL COLOMBIANO').mx-auto.d-block.d-md-none
         figcaption 
           b Fuente: 
-          | SENA, 2025
+          | SENA, 2025.
 
     .bg_waves.bg_02.bg_top
         .col-12.col-lg-10.mx-auto
           .titulo-sexto.mb-4.color-acento-contenido
-            h5 Figura 10. 
+            h5 Figura 9. 
             span Ejemplo de nomenclatura arancelaria
           figure.mb-5
             img(src="@/assets/curso/temas/tema4/img_12.svg", alt='En la figura 10 se describe las particularidades de la nomenclatura arancelaria. Una de sus características es que corresponde a una nomenclatura polivalente, la cual está concebida para clasificar mercancías transportables que son cerca de 5100 grupos de mercancías con código de seis cifras para ser utilizadas con distintos fines.').mx-auto.d-none.d-md-block
             img(src="@/assets/curso/temas/tema4/img_12m.svg", alt='En la figura 10 se describe las particularidades de la nomenclatura arancelaria. Una de sus características es que corresponde a una nomenclatura polivalente, la cual está concebida para clasificar mercancías transportables que son cerca de 5100 grupos de mercancías con código de seis cifras para ser utilizadas con distintos fines.').mx-auto.d-block.d-md-none
             figcaption 
               b Fuente: 
-              | SENA, 2025
+              | SENA, 2025.
           p
             b ¿Cuáles son las particularidades de la nomenclatura arancelaria?
 
@@ -176,26 +176,26 @@
           img(src="@/assets/curso/temas/tema4/img_13.png", alt='Imagen Descriptiva').mx-auto
       .col-12.col-lg-7
         .titulo-sexto.mb-4.color-acento-contenido
-          h5 Figura 11. 
+          h5 Figura 10. 
           span Particularidades de la nomenclatura arancelaria 
         figure.mb-5
           img(src="@/assets/curso/temas/tema4/img_14.svg", alt='en la figura 11 se presentan 3 tipos de nomenclatura aplicables a Colombia. Sistema armonizado de designación y codificación de mercancías. Nomenclatura Arancelaria de la Comunidad Andina-NANDINA. Nomenclatura Arancelaria de Colombia').mx-auto.d-none.d-md-block
           img(src="@/assets/curso/temas/tema4/img_14m.svg", alt='en la figura 11 se presentan 3 tipos de nomenclatura aplicables a Colombia. Sistema armonizado de designación y codificación de mercancías. Nomenclatura Arancelaria de la Comunidad Andina-NANDINA. Nomenclatura Arancelaria de Colombia').mx-auto.d-block.d-md-none
           figcaption 
             b Fuente: 
-            | SENA, 2025
+            | SENA, 2025.
 
       .row
         .col-12.col-lg-10.mx-auto
           .titulo-sexto.mb-4.color-acento-contenido
-            h5 Figura 12. 
+            h5 Figura 10. 
             span Ejemplos tipos de nomenclatura
           figure.mb-5
             img(src="@/assets/curso/temas/tema4/img_15.svg", alt='•Trámites previos a la operación. Registro de importadores/exportadores. Clasificación arancelaria. Licencias y permisos previos. •Trámites durante la operación. Declaración de aduanas (DUA - Declaración Única de Aduanas). Pago de derechos arancelarios e impuestos. Inspección aduanera. Régimen aduanero especial. •Trámites posteriores a la operación. Rectificaciones de la declaración. Solicitud de devolución de garantías. Compensación de saldos a favor. Auditorías y fiscalizaciones. •Trámites especiales. Drawback (reembolso de aranceles). Tránsito Aduanero. Reembolso de IVA a exportadores').mx-auto.d-none.d-md-block
             img(src="@/assets/curso/temas/tema4/img_15m.svg", alt='•Trámites previos a la operación. Registro de importadores/exportadores. Clasificación arancelaria. Licencias y permisos previos. •Trámites durante la operación. Declaración de aduanas (DUA - Declaración Única de Aduanas). Pago de derechos arancelarios e impuestos. Inspección aduanera. Régimen aduanero especial. •Trámites posteriores a la operación. Rectificaciones de la declaración. Solicitud de devolución de garantías. Compensación de saldos a favor. Auditorías y fiscalizaciones. •Trámites especiales. Drawback (reembolso de aranceles). Tránsito Aduanero. Reembolso de IVA a exportadores').mx-auto.d-block.d-md-none
             figcaption 
               b Fuente: 
-              | SENA, 2025
+              | SENA, 2025.
 
 
     .row.mx-auto.justify-content-center
@@ -203,7 +203,7 @@
         div.mb-3(data-aos="fade-right")
         h3.bgr.position-relative Reglamentación internacional 
           img.pst(src='@/assets/curso/temas/tema2/img_07.svg', alt='Imagen Descriptiva')
-        p Esta reglamentación se establece por medio de acuerdos y organismos que estandarizan y facilitan el comercio global, como los que se mencionan a continuación.
+        p Esta reglamentación se establece por medio de acuerdos y organismos que estandarizan y facilitan el comercio global, como los que se mencionan a continuación:
 
         .p-4.border-radius-4.color-secundario-10.w-100.d-flex.flex-column.mb-4.mb-lg-0
           ul.bullets.mb-0.d-flex.flex-column.gap-2
@@ -238,14 +238,14 @@
     .row
       .col-12.col-lg-10.mx-auto
         .titulo-sexto.mb-4.color-acento-contenido
-          h5 Figura 12. 
+          h5 Figura 11. 
           span Tipos de trámites arancelarios
         figure.mb-5
           img(src="@/assets/curso/temas/tema4/img_18.svg", alt='•Trámites previos a la operación, Registro de importadores/exportadores, Clasificación arancelaria, Licencias y permisos previos •Trámites durante la operación, Declaración de aduanas (DUA - Declaración Única de Aduanas), Pago de derechos arancelarios e impuestos, Inspección aduanera, Régimen aduanero especial •Trámites posteriores a la operación, Rectificaciones de la declaración, Solicitud de devolución de garantías, Compensación de saldos a favor, Auditorías y fiscalizaciones •Trámites especiales, Drawback (reembolso de aranceles), Tránsito Aduanero, Reembolso de IVA a exportadores').mx-auto.d-none.d-md-block
           img(src="@/assets/curso/temas/tema4/img_18m.svg", alt='•Trámites previos a la operación, Registro de importadores/exportadores, Clasificación arancelaria, Licencias y permisos previos •Trámites durante la operación, Declaración de aduanas (DUA - Declaración Única de Aduanas), Pago de derechos arancelarios e impuestos, Inspección aduanera, Régimen aduanero especial •Trámites posteriores a la operación, Rectificaciones de la declaración, Solicitud de devolución de garantías, Compensación de saldos a favor, Auditorías y fiscalizaciones •Trámites especiales, Drawback (reembolso de aranceles), Tránsito Aduanero, Reembolso de IVA a exportadores').mx-auto.d-block.d-md-none
           figcaption 
             b Fuente: 
-            | SENA, 2025
+            | SENA, 2025.
 
         .tarjeta.p-3.color-primario-10
           .row.justify-content-around.align-items-center
