@@ -188,7 +188,7 @@
       .row
         .col-12.col-lg-10.mx-auto
           .titulo-sexto.mb-4.color-acento-contenido
-            h5 Figura 10. 
+            h5 Figura 11. 
             span Ejemplos tipos de nomenclatura
           figure.mb-5
             img(src="@/assets/curso/temas/tema4/img_15.svg", alt='•Trámites previos a la operación. Registro de importadores/exportadores. Clasificación arancelaria. Licencias y permisos previos. •Trámites durante la operación. Declaración de aduanas (DUA - Declaración Única de Aduanas). Pago de derechos arancelarios e impuestos. Inspección aduanera. Régimen aduanero especial. •Trámites posteriores a la operación. Rectificaciones de la declaración. Solicitud de devolución de garantías. Compensación de saldos a favor. Auditorías y fiscalizaciones. •Trámites especiales. Drawback (reembolso de aranceles). Tránsito Aduanero. Reembolso de IVA a exportadores').mx-auto.d-none.d-md-block
@@ -238,7 +238,7 @@
     .row
       .col-12.col-lg-10.mx-auto
         .titulo-sexto.mb-4.color-acento-contenido
-          h5 Figura 11. 
+          h5 Figura 12. 
           span Tipos de trámites arancelarios
         figure.mb-5
           img(src="@/assets/curso/temas/tema4/img_18.svg", alt='•Trámites previos a la operación, Registro de importadores/exportadores, Clasificación arancelaria, Licencias y permisos previos •Trámites durante la operación, Declaración de aduanas (DUA - Declaración Única de Aduanas), Pago de derechos arancelarios e impuestos, Inspección aduanera, Régimen aduanero especial •Trámites posteriores a la operación, Rectificaciones de la declaración, Solicitud de devolución de garantías, Compensación de saldos a favor, Auditorías y fiscalizaciones •Trámites especiales, Drawback (reembolso de aranceles), Tránsito Aduanero, Reembolso de IVA a exportadores').mx-auto.d-none.d-md-block

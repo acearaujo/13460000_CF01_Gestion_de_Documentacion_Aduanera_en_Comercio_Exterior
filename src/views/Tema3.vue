@@ -115,7 +115,7 @@
           img(src="@/assets/curso/temas/tema3/img_05m.svg", alt='•Principales Importación: introducción de mercancías al territorio aduanero nacional. Exportación: salida de mercancías del territorio aduanero nacional con destino al exterior. Tránsito aduanero: transporte de mercancías bajo control aduanero entre dos puntos de la misma aduana o entre diferentes aduanas. •Especiales Depósito aduanero: almacenamiento de mercancías extranjeras en lugares autorizados sin el pago de tributos. Reembarque: retorno de mercancías extranjeras que no han sido nacionalizadas. Cabotaje: transporte de mercancías entre puertos o puntos nacionales Transbordo: Transferencia de mercancías de un medio de transporte a otro bajo control aduanero. •Regímenes aduaneros especiales Zonas francas: áreas con beneficios tributarios y aduaneros especiales. Admisión temporal: ingreso de mercancías para ser reexportadas en un plazo determinado. Perfeccionamiento activo: importación temporal para transformación y posterior exportación. Perfeccionamiento pasivo: exportación temporal para elaboración y posterior reimportación.').mx-auto.d-block.d-md-none
           figcaption 
             b Fuente: 
-            | SENA, 2025
+            | SENA, 2025.
 
         separador
 
@@ -244,7 +244,7 @@
               td Declaración de exportación en plataforma DIAN, solicitud de devolución de IVA (cuando aplique), aplicación del Drawback (sistema simplificado para PYMES).
             tr
               td Control y seguridad
-              td Certificados de calidad electrónicos, sistema de trazabilidad blockchain para café y banano, productos mineros y manufacturas de alto valor; muestras físicas (solo cuando lo exija autoridad competente).
+              td Certificados de calidad electrónicos, sistema de trazabilidad <em>blockchain</em> para café y banano, productos mineros y manufacturas de alto valor; muestras físicas (solo cuando lo exija autoridad competente).
             tr
               td Logísticos
               td Declaración anticipada de carga, uso de depósitos autorizados para consolidación de la carga, precintos electrónicos para contenedores. 
