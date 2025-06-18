@@ -8,7 +8,7 @@
       h1 Normativa aduanera
 
     .row.p-0.g-0
-      .col-12.col-lg-10.mx-auto
+      .col-12.mx-auto
         .row.color-secundario-10.p-0.g-0.mb-5
           .col-md-4(
               :style="{'background': `url(${require('@/assets/curso/temas/tema3/img_01.png')}) right no-repeat`,'min-height':'100px','background-size':'cover'}"
@@ -25,7 +25,7 @@
                 b Decreto 659 de 2024
               p El Decreto 659 del 22 de mayo de 2024 establece una nueva normatividad aduanera en Colombia, modificando aspectos clave del régimen de importaciones y exportaciones pertenecientes al Decreto 1165 de 2019. Busca modernizar y simplificar los trámites aduaneros en Colombia, alineándose con estándares internacionales y facilitando el comercio exterior. Además, introduce medidas para fortalecer el control fiscal y la lucha contra el contrabando. De esta manera se logra equilibrar facilidad de comercio con control fiscal, promoviendo la competitividad de Colombia en mercados internacionales. 
             
-            .col-4.col-md-3.order-1.order-md-2
+            .col-4.col-md-3.order-1.order-md-2.mx-auto
               img(src="@/assets/curso/temas/tema3/img_03.png", alt='Imagen Descriptiva').mb-4.mb-md-0
 
 
@@ -41,13 +41,13 @@
                     b Para ampliar la información del Decreto 659 de 2024, lo invitamos a acceder al siguiente enlace: 
                 .col-sm-auto
                   a.boton.color-yellow(href="https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0659_2024.htm" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-arrow-down
+                    span Enlace
+                    i.fas.fa-link
    
         
         
     .row
-      .col-12.col-md-10.mx-auto
+      .col-12.col-lg-10.mx-auto
         .titulo-sexto.mb-4.color-acento-contenido
             h5 Tabla 2. 
             span Tabla comparativa Decreto 1165 (2019) vs. Decreto 659 (2024)     
@@ -97,7 +97,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")      
-      .col-md-4.col-lg-4.col-xl-3.col-6.mb-3
+      .col-md-3.col-lg-3.col-6.mb-3
         figure
           img(src="@/assets/curso/temas/tema3/img_04.png", alt='Imagen Descriptiva').mx-auto.mb-4.mb-md-2
       .col-lg-12.col-xl-9.mb-2
@@ -111,7 +111,8 @@
           h5 Figura 3. 
           span Etapas del comercio exterior  
         figure
-          img(src="@/assets/curso/temas/tema3/img_05.svg", alt='•Principales Importación: introducción de mercancías al territorio aduanero nacional. Exportación: salida de mercancías del territorio aduanero nacional con destino al exterior. Tránsito aduanero: transporte de mercancías bajo control aduanero entre dos puntos de la misma aduana o entre diferentes aduanas. •Especiales Depósito aduanero: almacenamiento de mercancías extranjeras en lugares autorizados sin el pago de tributos. Reembarque: retorno de mercancías extranjeras que no han sido nacionalizadas. Cabotaje: transporte de mercancías entre puertos o puntos nacionales Transbordo: Transferencia de mercancías de un medio de transporte a otro bajo control aduanero. •Regímenes aduaneros especiales Zonas francas: áreas con beneficios tributarios y aduaneros especiales. Admisión temporal: ingreso de mercancías para ser reexportadas en un plazo determinado. Perfeccionamiento activo: importación temporal para transformación y posterior exportación. Perfeccionamiento pasivo: exportación temporal para elaboración y posterior reimportación.').mx-auto
+          img(src="@/assets/curso/temas/tema3/img_05.svg", alt='•Principales Importación: introducción de mercancías al territorio aduanero nacional. Exportación: salida de mercancías del territorio aduanero nacional con destino al exterior. Tránsito aduanero: transporte de mercancías bajo control aduanero entre dos puntos de la misma aduana o entre diferentes aduanas. •Especiales Depósito aduanero: almacenamiento de mercancías extranjeras en lugares autorizados sin el pago de tributos. Reembarque: retorno de mercancías extranjeras que no han sido nacionalizadas. Cabotaje: transporte de mercancías entre puertos o puntos nacionales Transbordo: Transferencia de mercancías de un medio de transporte a otro bajo control aduanero. •Regímenes aduaneros especiales Zonas francas: áreas con beneficios tributarios y aduaneros especiales. Admisión temporal: ingreso de mercancías para ser reexportadas en un plazo determinado. Perfeccionamiento activo: importación temporal para transformación y posterior exportación. Perfeccionamiento pasivo: exportación temporal para elaboración y posterior reimportación.').mx-auto.d-none.d-md-block
+          img(src="@/assets/curso/temas/tema3/img_05m.svg", alt='•Principales Importación: introducción de mercancías al territorio aduanero nacional. Exportación: salida de mercancías del territorio aduanero nacional con destino al exterior. Tránsito aduanero: transporte de mercancías bajo control aduanero entre dos puntos de la misma aduana o entre diferentes aduanas. •Especiales Depósito aduanero: almacenamiento de mercancías extranjeras en lugares autorizados sin el pago de tributos. Reembarque: retorno de mercancías extranjeras que no han sido nacionalizadas. Cabotaje: transporte de mercancías entre puertos o puntos nacionales Transbordo: Transferencia de mercancías de un medio de transporte a otro bajo control aduanero. •Regímenes aduaneros especiales Zonas francas: áreas con beneficios tributarios y aduaneros especiales. Admisión temporal: ingreso de mercancías para ser reexportadas en un plazo determinado. Perfeccionamiento activo: importación temporal para transformación y posterior exportación. Perfeccionamiento pasivo: exportación temporal para elaboración y posterior reimportación.').mx-auto.d-block.d-md-none
           figcaption 
             b Fuente: 
             | SENA, 2025
@@ -255,80 +256,80 @@
       .row.p-0.g-0
         .col-12.col-lg-10.mx-auto
           .row.color-secundario-10.p-0.g-0.mb-5
-            .col-md-4(
+            .col-md-6(
                 :style="{'background': `url(${require('@/assets/curso/temas/tema3/img_08.png')}) right no-repeat`,'min-height':'100px','background-size':'cover'}"
               )
-            .col-12.col-md-8.p-4
+            .col-12.col-md-6.p-4
               p.mb-0 Los documentos legales aduaneros son aquellos con validez jurídica ante la DIAN y otras autoridades, necesarios para realizar operaciones de comercio exterior.  
 
-       
-        .titulo-sexto.mb-4.color-acento-contenido
-          h5 Tabla 4. 
-          span Tipos de requerimientos aduaneros
-        .tabla-a.mb-5
-          table
-            caption 
-              b Fuente: 
-              | SENA, 2025.
-            thead
+        .col-12.col-lg-10.mx-auto
+          .titulo-sexto.mb-4.color-acento-contenido
+            h5 Tabla 5. 
+            span Tipos de documento legales
+          .tabla-a.mb-5
+            table
+              caption 
+                b Fuente: 
+                | SENA, 2025.
+              thead
+                tr
+                  td Tipo de documento legal
+                  td Documentos
+                  td Descripción
               tr
-                td Tipo de documento legal
-                td Documentos
-                td Descripción
-            tr
-              td(rowspan="3") Principales (obligatorios)
-              td Declaración Aduanera (DUA o Declaración Andina)
-              td Documento legal que formaliza la operación (importación/exportación). Contiene información fiscal, arancelaria y comercial.
-            tr
-              td Factura comercial original
-              td Requisito legal con datos del vendedor, comprador, valor y términos INCOTERM. Debe coincidir con la declaración aduanera.
-            tr
-              td Documento de transporte
-              td BL/AWB/Carta de porte: prueba legal del contrato de transporte.
+                td(rowspan="3") Principales (obligatorios)
+                td Declaración Aduanera (DUA o Declaración Andina)
+                td Documento legal que formaliza la operación (importación/exportación). Contiene información fiscal, arancelaria y comercial.
+              tr
+                td Factura comercial original
+                td Requisito legal con datos del vendedor, comprador, valor y términos INCOTERM. Debe coincidir con la declaración aduanera.
+              tr
+                td Documento de transporte
+                td BL/AWB/Carta de porte: prueba legal del contrato de transporte.
 
-            tr
-              td(rowspan="2") Control y regulación
-              td Certificado de origen
-              td Avala el país de origen para aplicar preferencias arancelarias (TLC).
-            tr
-              td Licencias y permisos especiales
-              td Sanitarios (INVIMA/ICA), ambientales (ANLA), o de comercio (MINCIT). Sin estos, la mercancía puede ser retenida o destruida.
+              tr
+                td(rowspan="2") Control y regulación
+                td Certificado de origen
+                td Avala el país de origen para aplicar preferencias arancelarias (TLC).
+              tr
+                td Licencias y permisos especiales
+                td Sanitarios (INVIMA/ICA), ambientales (ANLA), o de comercio (MINCIT). Sin estos, la mercancía puede ser retenida o destruida.
 
-            tr
-              td(rowspan="2") Tributarios y cambiarios
-              td Liquidación de tributos aduaneros
-              td Detalla aranceles, IVA e impuestos específicos. Tiene efectos legales en auditorías fiscales.
-            tr
-              td Declaración cambiaria (formulario de cambio) DUA electrónica
-              td Obligatoria para operaciones ≥ USD 10,000 (Banco de la República).
+              tr
+                td(rowspan="2") Tributarios y cambiarios
+                td Liquidación de tributos aduaneros
+                td Detalla aranceles, IVA e impuestos específicos. Tiene efectos legales en auditorías fiscales.
+              tr
+                td Declaración cambiaria (formulario de cambio) DUA electrónica
+                td Obligatoria para operaciones ≥ USD 10,000 (Banco de la República).
 
 
-            tr
-              td(rowspan="3") Electrónicos con validez legal
-              td Certificaciones y autorizaciones especiales
-              td Equivalente legal a la versión física (Art. 5 del Decreto 659).
-            tr
-              td Certificados digitales (DIAN)
-              td Firmas electrónicas para agentes y operadores.
-            tr
-              td Notificaciones electrónicas
-              td Tienen el mismo valor que una notificación física.
+              tr
+                td(rowspan="3") Electrónicos con validez legal
+                td Certificaciones y autorizaciones especiales
+                td Equivalente legal a la versión física (Art. 5 del Decreto 659).
+              tr
+                td Certificados digitales (DIAN)
+                td Firmas electrónicas para agentes y operadores.
+              tr
+                td Notificaciones electrónicas
+                td Tienen el mismo valor que una notificación física.
 
-            tr
-              td(rowspan="2") Para regímenes especiales
-              td Contrato de admisión temporal
-              td Sustenta el ingreso temporal de mercancías.
-            tr
-              td Autorización de zonas francas
-              td Emitida por la DIAN con efectos legales en beneficios tributarios.
+              tr
+                td(rowspan="2") Para regímenes especiales
+                td Contrato de admisión temporal
+                td Sustenta el ingreso temporal de mercancías.
+              tr
+                td Autorización de zonas francas
+                td Emitida por la DIAN con efectos legales en beneficios tributarios.
 
-            tr
-              td(rowspan="2") Declaraciones juradas
-              td Declaraciones juradas
-              td Falsearlas puede acarrear sanciones penales (contrabando, lavado).
-            tr
-              td Actas de fiscalización o retención
-              td Usadas como prueba en procesos judiciales.
+              tr
+                td(rowspan="2") Declaraciones juradas
+                td Declaraciones juradas
+                td Falsearlas puede acarrear sanciones penales (contrabando, lavado).
+              tr
+                td Actas de fiscalización o retención
+                td Usadas como prueba en procesos judiciales.
 
           
 </template>
